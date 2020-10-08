@@ -1,17 +1,22 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
+  "name": "Keybox",
+  "version": "1.1.0",
+  "description": "More places to stay",
+  "author": "Katie Poa",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon proxy/server/index.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "http-proxy-middleware": "^1.0.5"
   }
 }
